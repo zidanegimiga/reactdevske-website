@@ -1,12 +1,12 @@
 import Card from "./HeroCard";
-import { community, learningPlatform, mentorship } from "../../util/heroCardsBodyContent";
-import learningPlatformImg from "../../public/heroImg1.png";
-import mentorshipImg from "../../public/heroImg2.png";
-import communityImg from "../../public/heroImg3.png";
+import { community, learningPlatform, mentorship } from "../../../util/heroCardsBodyContent";
+import learningPlatformImg from "../../../public/heroImg1.png";
+import mentorshipImg from "../../../public/heroImg2.png";
+import communityImg from "../../../public/heroImg3.png";
 
 const Hero = () => {
   return (
-    <div className="static">
+    <div className="relative">
         <div className="bg-[url('/hero.png')] bg-cover flex flex-col">
             <div className="mt-52">
                 <h1 className="text-white text-center text-h1 font-black"> Join Kenya's React.JS</h1>
@@ -18,7 +18,7 @@ const Hero = () => {
             </button>
         </div>
 
-        <div className="absolute top-[512px] rounded rounded-xl shadow-2xl flex justify-center mx-44 mt-[72px] bg-green ">
+        <div className="rounded rounded-xl shadow-2xl flex justify-center mx-44 mt-[-72px] bg-green ">
             <Card title={"Community Platform"} body={community} img={communityImg}/>
             <Card title={"Mentorship"} body={mentorship} img={mentorshipImg}/>
             <Card title={"Learning Platform"} body={learningPlatform} img={learningPlatformImg}/>
