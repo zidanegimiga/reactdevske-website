@@ -1,6 +1,11 @@
 import Head from "next/head";
 import Image from "next/image";
-import Hero from "../components/home/Hero";
+import About from "../components/home/About";
+import Events from "../components/home/Events/Events";
+import Founders from "../components/home/Founders/Founders";
+import Hero from "../components/home/Hero/Hero";
+import Members from "../components/home/Members";
+import Mission from "../components/home/Mission";
 // import styles from '../styles/Home.module.css'
 import logo from "../public/reactdevske.svg";
 
@@ -22,9 +27,12 @@ export default function Home() {
       </Head>
 
       <main className="">
-        <div>
-          <Hero />
-        </div>
+        <Hero />       
+        <About />
+        <Mission />
+        <Founders /> 
+        <Members />
+        <Events />      
       </main>
     </div>
   );
