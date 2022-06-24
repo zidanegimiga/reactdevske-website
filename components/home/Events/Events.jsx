@@ -9,12 +9,19 @@ const Events = () => {
           <h2 className='font-montserrat text-h2 font-black text-center mt-[25px] mb-[60px]'>Upcoming Community Events</h2>
         </div>
 
-        <div className='bg-green flex flex-col'>
-          <div className='text-right mr-[204px] mt-[25px] mb-[47px]'>
-            <h4 className='font-montserrat text-h4 text-white font-bold'>See more</h4>
-          </div>
-          <div className='grid mr-[204px] ml-[181px]'>
-            <EventsCard />
+        <div className='bg-green'>
+          <div className='flex flex-col align-center mx-[184px]'>
+            <div className='text-right mt-[25px] mb-[48px]'>
+              <h4 className='font-montserrat text-h4 text-white font-bold'>See more</h4>
+            </div>
+            <div className='grid gap-x-20 gap-y-14 grid-cols-3 mb-[80px]'>
+              <EventsCard />
+              <EventsCard />
+              <EventsCard />
+              <EventsCard />
+              <EventsCard />
+              <EventsCard />
+            </div>
           </div>
         </div>
     </div>

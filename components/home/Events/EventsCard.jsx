@@ -4,7 +4,7 @@ import Image from 'next/image';
 
 const EventsCard = () => {
   return (
-    <div className='mx-[90px] my-[55px] bg-white rounded p-[16px] w-[301px] h-[344px]'>
+    <div className='bg-white rounded p-[16px] w-[301px] h-[344px]'>
         <Image src={event1} width={265} height={176}/>
         <h4 className='text-h4 font-bold font-montserrat mt-[40px]'> Lorem Ipsum</h4>
         <div className='flex justify-between'>
