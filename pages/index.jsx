@@ -2,6 +2,7 @@ import Head from "next/head";
 import Image from "next/image";
 import About from "../components/home/About";
 import Events from "../components/home/Events/Events";
+import Forum from "../components/home/Forum";
 import Founders from "../components/home/Founders/Founders";
 import Hero from "../components/home/Hero/Hero";
 import Members from "../components/home/Members";
@@ -32,7 +33,8 @@ export default function Home() {
         <Mission />
         <Founders /> 
         <Members />
-        <Events />      
+        <Events />
+        <Forum />      
       </main>
     </div>
   );
